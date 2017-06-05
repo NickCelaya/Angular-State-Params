@@ -10,7 +10,7 @@ $stateProvider
 })
 
 .state("display",{
-  url: "/display:/id",
+  url: "/display/:id",
   templateUrl: "./views/display.html",
   controller: "displayCtrl"
 
