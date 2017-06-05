@@ -1,0 +1,11 @@
+<section class="poster-container">
+  <div ng-repeat = "movie in movies" class="poster-wrap">
+    <img ng-src="{{movie.img}}" ui-sref="display({id: movies.id})">
+  </div>
+  <div class="click">
+    <br>
+    <br>
+    (Click on movie for details)
+  </div>
+
+</section>
